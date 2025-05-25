@@ -13,6 +13,10 @@ else {
     impares++; 
     }
 
+    if  (total > 15) { 
+    console.log("Límite superado"); 
+    break; 
+    }
      x++;
 
     } 
